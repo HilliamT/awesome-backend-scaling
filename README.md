@@ -210,6 +210,79 @@ To check if a service has crashed, intermittent calls to the service can be made
 
 ## Internal Messaging
 `🚧 TODO 🚧`
+
+#### Communication Protocol
+<table>
+    <thead>
+    <tr>
+        <th>Approaches</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>HTTP REST</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Websockets</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Data Streaming</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>gRPC</strong></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+#### Message Delivery
+<table>
+    <thead>
+    <tr>
+        <th>Approaches</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Inline API Calls</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>API Gateways</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Bi-directional APIs with Pusher</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>RabbitMQ Messaging Queues</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Message Brokers on Apache Kafka</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Google Pub/Sub</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Istio and Service Meshes</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>On-Trigger Cloud Functions</strong></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
 ## Storage
 `🚧 TODO 🚧`
 
