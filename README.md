@@ -146,6 +146,68 @@ To check if a service has crashed, intermittent calls to the service can be made
 ## Execution
 `🚧 TODO 🚧`
 
+#### Vertical Scaling
+`🚧 TODO 🚧`
+<table>
+    <thead>
+    <tr>
+        <th>Approaches</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Caching</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Changing Programming Language</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Code Optimisation</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Increase Server RAM</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Change Server Processor Type</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Increase Number of Cores</strong></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+#### Horizontal Scaling
+`🚧 TODO 🚧`
+<table>
+    <thead>
+    <tr>
+        <th>Approaches</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Moving to a Microservice Architecture</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Kubernetes Pod Scaling</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Cloud Functions</strong></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
 ## Internal Messaging
 `🚧 TODO 🚧`
 ## Storage
