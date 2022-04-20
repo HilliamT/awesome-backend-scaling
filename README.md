@@ -286,6 +286,128 @@ To check if a service has crashed, intermittent calls to the service can be made
 ## Storage
 `🚧 TODO 🚧`
 
+#### Online Transaction Processing (OLTP)
+<table>
+    <thead>
+    <tr>
+        <th>Approaches</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>In-Memory</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Redis Caching</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>PostgresDB</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>MongoDB</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Cassandra</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Search Engine Elasticsearch</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>PgBouncer for PostgresDB</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>PgPool</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Database Sharding</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Cloud Databases</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Google Cloud SQL</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Amazon DynamoDB</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Mission-critical Transactional Consistency with Google Spanner</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Large-Scale Low-Latency with Google Cloud Bigtable</strong></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+#### Online Analytics Processing (OLAP)
+
+<table>
+    <thead>
+    <tr>
+        <th>Approaches</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>General Databases</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Elasticsearch</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Data Warehouses</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Data Lakes</strong></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+#### Archival
+<table>
+    <thead>
+    <tr>
+        <th>Approaches</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>General Databases</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Cold Storage</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Arweave: Archiving on the Blockchain</strong></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+
 ## External Endpoints
 `🚧 TODO 🚧`
 
