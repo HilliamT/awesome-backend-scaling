@@ -425,6 +425,63 @@ To check if a service has crashed, intermittent calls to the service can be made
 ## Robustness
 `🚧 TODO 🚧`
 
+#### Testing
+
+<table>
+    <thead>
+    <tr>
+        <th>Approaches</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Unit Testing</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Component Testing</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Integration Testing</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>End-to-End Load Testing</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Web Performance Testing</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Stress Testing</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Fuzzing</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Symbolic Execution</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Static Analysis</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Formal Verification</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Chaos Engineering for Microservices</strong></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
 ## Resources
 These books and articles have been helpful in my development of this guide:
 
