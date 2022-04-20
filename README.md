@@ -410,6 +410,11 @@ To check if a service has crashed, intermittent calls to the service can be made
 
 ## External Endpoints
 `🚧 TODO 🚧`
+#### Rate Limiting
+`🚧 TODO 🚧`
+
+#### Endpoint Handler
+`🚧 TODO 🚧`
 
 ## Scheduling
 `🚧 TODO 🚧`
