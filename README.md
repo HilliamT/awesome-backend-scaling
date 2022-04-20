@@ -22,7 +22,12 @@ These and many more can deter users away and affect how well you meet your busin
 This guide aims to collate various practices and approaches, some used, to solve different types of bottlenecks. Some may be applicable or not - take what you will.
 
 ## Monitoring and Observability
-`🚧 TODO 🚧`
+Knowing that there is a degradation in performance is the first key step to being able to identify solutions for it.
+
+Systems often rely on different services to provide certain functionalities. You may have an authentication server to dedicated to managing authentication for users. You may have an API server for delivering data to your mobile app. Services like these are integral to making your application work.
+
+If a service has crashed due to an uncaught software bug or a hardware failure, this can be detrimental.
+
 
 ## Execution
 `🚧 TODO 🚧`
