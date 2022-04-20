@@ -28,6 +28,120 @@ Systems often rely on different services to provide certain functionalities. You
 
 If a service has crashed due to an uncaught software bug or a hardware failure, this can be detrimental.
 
+#### Health Monitoring
+
+To check if a service has crashed, intermittent calls to the service can be made. If the service is not responding, it is likely to be down.
+
+`🚧 TODO 🚧`
+
+<table>
+    <thead>
+    <tr>
+        <th>Approaches</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Manual Heartbeats</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Native Integration with AWS Cloudwatch</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Native Cloud Monitoring with Google Cloud Platform</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>API Monitoring with Postman</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Website Monitoring with Better Uptime</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Kubernetes Cluster Monitoring</strong></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+#### Resources Monitoring
+`🚧 TODO 🚧`
+<table>
+    <thead>
+    <tr>
+        <th>Approaches</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Cron Job</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Infrastructure Monitoring with Datadog</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Native Integration with AWS Cloudwatch</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Native Cloud Monitoring with Google Cloud Platform</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Kubernetes Metrics Server</strong></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+#### Observability
+`🚧 TODO 🚧`
+<table>
+    <thead>
+    <tr>
+        <th>Approaches</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>console.log</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Logging to an API endpoint</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Logtail</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Splunk</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>Datadog</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>New Relic</strong></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><strong>AppDynamics</strong></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
 
 ## Execution
 `🚧 TODO 🚧`
