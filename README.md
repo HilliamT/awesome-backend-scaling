@@ -211,9 +211,10 @@ Horizontal scaling notices that there is a limit to how many resources you can d
 </table>
 
 ## Internal Messaging
-`🚧 TODO 🚧`
+When a system contains different services that are ran as separate processes, they may need to communicate with each other. This can be achieved by using a messaging system. Even if storage on individual services may be large, a system is bottlenecked by the bandwidth of data transfer.
 
 #### Communication Protocol
+The format of a message can be important in efficiency based on the use case.
 <table>
     <thead>
     <tr>
@@ -224,24 +225,29 @@ Horizontal scaling notices that there is a limit to how many resources you can d
     <tbody>
         <tr>
             <td><strong>HTTP REST</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Websockets</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Data Streaming</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>gRPC</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
+        </tr>
+        <tr>
+            <td><strong>On-Trigger Cloud Functions</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
     </tbody>
 </table>
 
 #### Message Delivery
+There are more specialised messaging systems that can be used to deliver messages based on need. These generally tend to be towards several services that may be dynamically scaled. Maintenance of updating the endpoint to call can be a bottleneck in developer resources too.
 <table>
     <thead>
     <tr>
@@ -252,35 +258,31 @@ Horizontal scaling notices that there is a limit to how many resources you can d
     <tbody>
         <tr>
             <td><strong>Inline API Calls</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>API Gateways</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Bi-directional APIs with Pusher</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>RabbitMQ Messaging Queues</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Message Brokers on Apache Kafka</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Google Pub/Sub</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Istio and Service Meshes</strong></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td><strong>On-Trigger Cloud Functions</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
     </tbody>
 </table>
