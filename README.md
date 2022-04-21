@@ -438,17 +438,116 @@ Some data may be read very rarely, and is not needed for the day-to-day operatio
     </tbody>
 </table>
 
+## Security
+Security is a very important part of any application. It is important to have a secure architecture that is easy to maintain and easy to change. This includes being able to scale an authentication and authorisation solution for your application to meet user demands without compromising on security.
+#### Authentication
+Authentication is being able to identify a user for who they are.
 
-## External Endpoints
-`🚧 TODO 🚧`
-#### Rate Limiting
-`🚧 TODO 🚧`
+<table>
+    <thead>
+    <tr>
+        <th>Approaches</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>HTTP Basic Authentication</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
+        </tr>
+        <tr>
+            <td><strong>HTTP Digest Authentication</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
+        </tr>
+        <tr>
+            <td><strong>Session Cookies</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
+        </tr>
+        <tr>
+            <td><strong>Self-contained Tokens with JWTs</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
+        </tr>
+        <tr>
+            <td><strong>API Key Authentication</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
+        </tr>
+        <tr>
+            <td><strong>Certificate-bound Access Tokens</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
+        </tr>
+        <tr>
+            <td><strong>Kubernetes Key Management with Hashicorp Vault</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
+        </tr>
+        <tr>
+            <td><strong>One-Key Provisioning</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
+        </tr>
+        <tr>
+            <td><strong>Key Distribution Servers</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
+        </tr>
+    </tbody>
+</table>
 
-#### Endpoint Handler
-`🚧 TODO 🚧`
 
-## Authentication and Authorisation
-`🚧 TODO 🚧`
+#### Authorisation
+Authorisation is being able to determine whether a user is allowed to perform  certain action.
+<table>
+    <thead>
+    <tr>
+        <th>Approaches</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Resource Owner Password Credentials (ROPC)</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
+        </tr>
+        <tr>
+            <td><strong>OAuth2</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
+        </tr>
+        <tr>
+            <td><strong>OpenID Connect</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
+        </tr>
+        <tr>
+            <td><strong>Lightweight Directory Access Protocol (LDAP)</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
+        </tr>
+        <tr>
+            <td><strong>Capability URIs and Macaroons</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
+        </tr>
+    </tbody>
+</table>
+
+#### Rate-Limiting
+Another part of security is rate-limiting. This is a way of limiting the number of requests made by a user to a particular resource. This is useful for preventing denial of service attacks.
+<table>
+    <thead>
+    <tr>
+        <th>Approaches</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>In-Memory Store</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
+        </tr>
+        <tr>
+            <td><strong>Redis</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
+        </tr>
+        <tr>
+            <td><strong>Proxy Rate Limiter</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
+        </tr>
+    </tbody>
+</table>
 
 ## Robustness
 After implementing new changes, you may find that your application will behave differently, for better or for worst. Adding a scaffold for tests and running them will help you to quickly identify and fix any issues that may arise.
