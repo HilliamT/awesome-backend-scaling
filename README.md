@@ -436,10 +436,10 @@ Some data may be read very rarely, and is not needed for the day-to-day operatio
 `🚧 TODO 🚧`
 
 ## Robustness
-`🚧 TODO 🚧`
+After implementing new changes, you may find that your application will behave differently, for better or for worst. Adding a scaffold for tests and running them will help you to quickly identify and fix any issues that may arise.
 
-#### Testing
-
+#### Reactionary Testing
+Building a ever-growing list of tests is a good way to test that your application still behaves as expected after every change. Catching any unexpected and potentially nefarious errors ensures that these errors aren't deployed to production.
 <table>
     <thead>
     <tr>
@@ -450,47 +450,61 @@ Some data may be read very rarely, and is not needed for the day-to-day operatio
     <tbody>
         <tr>
             <td><strong>Unit Testing</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Component Testing</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Integration Testing</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>End-to-End Load Testing</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Web Performance Testing</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
+    </tbody>
+</table>
+
+#### Preemptive Testing
+For mission-critical software, crashes and bug fixes may be incredibly detrimental. Preemptive testing is a way to find bugs or issues first, with a general frame of expecting the worst to occur.
+
+<table>
+    <thead>
+    <tr>
+        <th>Approaches</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
         <tr>
             <td><strong>Stress Testing</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Fuzzing</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Symbolic Execution</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Static Analysis</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Formal Verification</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Chaos Engineering for Microservices</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
     </tbody>
 </table>
