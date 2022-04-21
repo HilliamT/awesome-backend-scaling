@@ -32,8 +32,6 @@ If a service has crashed due to an uncaught software bug or a hardware failure, 
 
 To check if a service has crashed, intermittent calls to the service can be made. If the service is not responding, it is likely to be down.
 
-`🚧 TODO 🚧`
-
 <table>
     <thead>
     <tr>
@@ -44,33 +42,33 @@ To check if a service has crashed, intermittent calls to the service can be made
     <tbody>
         <tr>
             <td><strong>Manual Heartbeats</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Native Integration with AWS Cloudwatch</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Native Cloud Monitoring with Google Cloud Platform</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>API Monitoring with Postman</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Website Monitoring with Better Uptime</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Kubernetes Cluster Monitoring</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
     </tbody>
 </table>
 
 #### Resources Monitoring
-`🚧 TODO 🚧`
+A service may also not be down, but it may be experiencing a degradation in performance as it does not have enough resources to handle a certain intended workload. Monitoring resource usage can help you identify when this happens.
 <table>
     <thead>
     <tr>
@@ -81,29 +79,33 @@ To check if a service has crashed, intermittent calls to the service can be made
     <tbody>
         <tr>
             <td><strong>Cron Job</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
+        </tr>
+        <tr>
+            <td><strong>Flame Graphs</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Infrastructure Monitoring with Datadog</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Native Integration with AWS Cloudwatch</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Native Cloud Monitoring with Google Cloud Platform</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Kubernetes Metrics Server</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
     </tbody>
 </table>
 
 #### Observability
-`🚧 TODO 🚧`
+Whilst monitoring tells you if a service is suffering an issue, observability aims to provide you with details on why the issue is occurring.
 <table>
     <thead>
     <tr>
@@ -113,32 +115,32 @@ To check if a service has crashed, intermittent calls to the service can be made
     </thead>
     <tbody>
         <tr>
-            <td><strong>console.log</strong></td>
-            <td></td>
+            <td><strong>Logging to Console</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Logging to an API endpoint</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Logtail</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Splunk</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Datadog</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>New Relic</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>AppDynamics</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
     </tbody>
 </table>
