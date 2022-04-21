@@ -2,13 +2,28 @@
 
 - [Motivation](#motivation)
 - [Monitoring and Observability](#monitoring-and-observability)
+    - [Health Monitoring](#health-monitoring)
+    - [Resources Monitoring](#resources-monitoring)
+    - [Observability](#observability)
 - [Execution](#execution)
+    - [Vertical Scaling](#vertical-scaling)
+    - [Horizontal Scaling](#horizontal-scaling)
 - [Internal Messaging](#internal-messaging)
+    - [Message Format](#message-format)
+    - [Communication Protocol](#communication-protocol)
 - [Storage](#storage)
+    -  [Online Transaction Processing (OLTP)](#online-transaction-processing-oltp)
+    - [Online Analytics Processing (OLAP)](#online-analytics-processing-olap)
+    - [Archival](#archival)
 - [External APIs](#external-apis)
+    - [Rate Limiting](#rate-limiting)
+    - [Endpoint Handler](#endpoint-handler)
 - [Scheduling](#scheduling)
 - [Authentication and Authorisation](#authentication-and-authorisation)
 - [Robustness](#robustness)
+    - [Reactionary Testing](#reactionary-testing)
+    - [Preemptive Testing](#preemptive-testing)
+- [Resources](#resources)
 ## Motivation
 
 As an application grows in users, it can face problems that limit its capacity to grow with this demand. Bottlenecks in the system may start being observed that degrade the performance for users:
@@ -213,7 +228,7 @@ Horizontal scaling notices that there is a limit to how many resources you can d
 ## Internal Messaging
 When a system contains different services that are ran as separate processes, they may need to communicate with each other. This can be achieved by using a messaging system. Even if storage on individual services may be large, a system is bottlenecked by the bandwidth of data transfer.
 
-#### Communication Protocol
+#### Message Format
 The format of a message can be important in efficiency based on the use case.
 <table>
     <thead>
@@ -246,7 +261,7 @@ The format of a message can be important in efficiency based on the use case.
     </tbody>
 </table>
 
-#### Message Delivery
+#### Communication Protocol
 There are more specialised messaging systems that can be used to deliver messages based on need. These generally tend to be towards several services that may be dynamically scaled. Maintenance of updating the endpoint to call can be a bottleneck in developer resources too.
 <table>
     <thead>
