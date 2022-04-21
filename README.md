@@ -18,7 +18,6 @@
 - [External APIs](#external-apis)
     - [Rate Limiting](#rate-limiting)
     - [Endpoint Handler](#endpoint-handler)
-- [Scheduling](#scheduling)
 - [Authentication and Authorisation](#authentication-and-authorisation)
 - [Robustness](#robustness)
     - [Reactionary Testing](#reactionary-testing)
@@ -288,6 +287,10 @@ There are more specialised messaging systems that can be used to deliver message
             <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
+            <td><strong>Serverless Job Scheduling with Quirrel</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
+        </tr>
+        <tr>
             <td><strong>Message Brokers on Apache Kafka</strong></td>
             <td><code>🚧 TODO 🚧</code></td>
         </tr>
@@ -442,9 +445,6 @@ Some data may be read very rarely, and is not needed for the day-to-day operatio
 `🚧 TODO 🚧`
 
 #### Endpoint Handler
-`🚧 TODO 🚧`
-
-## Scheduling
 `🚧 TODO 🚧`
 
 ## Authentication and Authorisation
