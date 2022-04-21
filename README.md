@@ -217,11 +217,27 @@ Horizontal scaling notices that there is a limit to how many resources you can d
             <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
+            <td><strong>Ansible Provisioning</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
+        </tr>
+        <tr>
+            <td><strong>Cloud Provisioning</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
+        </tr>
+        <tr>
+            <td><strong>Infrastructure-as-a-Code with Terraform</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
+        </tr>
+        <tr>
             <td><strong>Kubernetes Pod Scaling</strong></td>
             <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
-            <td><strong>Cloud Functions</strong></td>
+            <td><strong>Docker Swarm</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
+        </tr>
+        <tr>
+            <td><strong>Serverless Cloud Functions</strong></td>
             <td><code>🚧 TODO 🚧</code></td>
         </tr>
     </tbody>
