@@ -288,9 +288,11 @@ There are more specialised messaging systems that can be used to deliver message
 </table>
 
 ## Storage
-`🚧 TODO 🚧`
+Data is fundamental to an application. Being able to store and later retrieve data instead of having to recompute calculations is key for processors to not need to re-calculate data. State management also comes under this.
 
 #### Online Transaction Processing (OLTP)
+OLTP is a class of storage that is designed to be used for transactional processing - your general everyday many-reads-and-many-writes workload needed for users. This needs to be handled consistently yet efficiently.
+
 <table>
     <thead>
     <tr>
@@ -301,64 +303,65 @@ There are more specialised messaging systems that can be used to deliver message
     <tbody>
         <tr>
             <td><strong>In-Memory</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Redis Caching</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>PostgresDB</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>MongoDB</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Cassandra</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Search Engine Elasticsearch</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>PgBouncer for PostgresDB</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>PgPool</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Database Sharding</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Cloud Databases</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Google Cloud SQL</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Amazon DynamoDB</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Mission-critical Transactional Consistency with Google Spanner</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Large-Scale Low-Latency with Google Cloud Bigtable</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
     </tbody>
 </table>
 
 #### Online Analytics Processing (OLAP)
+OLAP is a class of storage that is designed to be used for producing business analytics - read queries on the database tend to make up the majority of your workload, normally across large amounts of data.
 
 <table>
     <thead>
@@ -370,24 +373,30 @@ There are more specialised messaging systems that can be used to deliver message
     <tbody>
         <tr>
             <td><strong>General Databases</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Elasticsearch</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
+        </tr>
+        <tr>
+            <td><strong>Apache Hadoop</strong></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Data Warehouses</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Data Lakes</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
     </tbody>
 </table>
 
 #### Archival
+Some data may be read very rarely, and is not needed for the day-to-day operations of an application. This is where archival comes in.
+
 <table>
     <thead>
     <tr>
@@ -398,15 +407,15 @@ There are more specialised messaging systems that can be used to deliver message
     <tbody>
         <tr>
             <td><strong>General Databases</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Cold Storage</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Arweave: Archiving on the Blockchain</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
     </tbody>
 </table>
