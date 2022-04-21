@@ -146,10 +146,10 @@ Whilst monitoring tells you if a service is suffering an issue, observability ai
 </table>
 
 ## Execution
-`🚧 TODO 🚧`
+Increasing the capacity of your application can be a key step to solving bottlenecks. This will generally optimise the performance of your application, but you should compare this to other more-dedicated solutions that may be more cost-effective.
 
 #### Vertical Scaling
-`🚧 TODO 🚧`
+Vertical scaling focuses on allocating more resources to a single instance. Included also are considerations to optimise resource usage on an instance-granular level.
 <table>
     <thead>
     <tr>
@@ -160,33 +160,33 @@ Whilst monitoring tells you if a service is suffering an issue, observability ai
     <tbody>
         <tr>
             <td><strong>Caching</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Changing Programming Language</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Code Optimisation</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Increase Server RAM</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Change Server Processor Type</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Increase Number of Cores</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
     </tbody>
 </table>
 
 #### Horizontal Scaling
-`🚧 TODO 🚧`
+Horizontal scaling notices that there is a limit to how many resources you can dedicate to a single instance and therefore utilises the resources of other instances to meet the demand.
 <table>
     <thead>
     <tr>
@@ -197,15 +197,15 @@ Whilst monitoring tells you if a service is suffering an issue, observability ai
     <tbody>
         <tr>
             <td><strong>Moving to a Microservice Architecture</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Kubernetes Pod Scaling</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
         <tr>
             <td><strong>Cloud Functions</strong></td>
-            <td></td>
+            <td><code>🚧 TODO 🚧</code></td>
         </tr>
     </tbody>
 </table>
